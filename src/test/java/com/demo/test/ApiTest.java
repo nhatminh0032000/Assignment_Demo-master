@@ -3,7 +3,6 @@ package com.demo.test;
 import com.demo.automation.DataModel.DemoDataModel;
 import com.demo.automation.Keywords.ApiKeywords;
 import com.demo.automation.Keywords.IApiKeywords;
-import com.demo.automation.Utulities.printToTxt;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.client.methods.HttpUriRequest;
@@ -38,11 +37,5 @@ public class ApiTest  {
 
         softAssert.assertEquals(dataModel.getTitle(),expectedResult, "This post is incorrect===> ");
         softAssert.assertAll();
-
-
-
-
-//        String getTitle = dataModel.getTitle();
-      //  printToTxt.WriteToFile("post1","result.txt");
     }
 }

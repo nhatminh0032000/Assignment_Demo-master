@@ -1,4 +1,4 @@
-package com.demo.automation.Utulities;
+package com.demo.automation.Utilities;
 
 import java.io.*;
 
