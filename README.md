@@ -1,4 +1,4 @@
-# Assignment_Demo
+# Guide to run your automation test scripts
 
 I have created a maven project with TestNG, adding necessary dependencies to pom.xml. 
 
