@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[</br>Test Case: Verify that the Posts api returns correct data. </br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>Step 1: Request https://my-json-server.typicode.com/typicode/demo/posts/1]]>
+    </line>
+    <line>
+      <![CDATA[</br>step 2: Check that data returned matches the expected result]]>
+    </line>
+    <line>
+      <![CDATA[</br>ACTUAL RESULT: Data returned is : Post 1]]>
+    </line>
+    <line>
+      <![CDATA[</br>EXPECTED RESULT: Post 1</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>Test Cases: verify how many requests are submitted and approved in 2019 (Request Status = Approved && Date Submitted = 2019).]]>
+    </line>
+    <line>
+      <![CDATA[</br></br>Step 1: Login to site ]]>
+    </line>
+    <line>
+      <![CDATA[</br>Step 2: Open Students listing page]]>
+    </line>
+    <line>
+      <![CDATA[</br>Step 3: Get total of requests which are submitted and approved in 2019]]>
+    </line>
+    <line>
+      <![CDATA[</br></br>ACTUAL RESULT: </br> SUM(Approved Requests && Date Submitted = 2019) :  5]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5613" started-at="2020-03-15T14:48:05 ICT" finished-at="2020-03-15T14:48:10 ICT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5613" started-at="2020-03-15T14:48:05 ICT" finished-at="2020-03-15T14:48:10 ICT">
+      <class name="com.demo.test.WebUIAutomationTest">
+        <test-method status="PASS" signature="Requests_Total_Submitted_Approve_in_2019()[pri:0, instance:com.demo.test.WebUIAutomationTest@5034c75a]" name="Requests_Total_Submitted_Approve_in_2019" duration-ms="3617" started-at="2020-03-15T14:48:06 ICT" finished-at="2020-03-15T14:48:10 ICT">
+          <reporter-output>
+            <line>
+              <![CDATA[</br>Test Cases: verify how many requests are submitted and approved in 2019 (Request Status = Approved && Date Submitted = 2019).]]>
+            </line>
+            <line>
+              <![CDATA[</br></br>Step 1: Login to site ]]>
+            </line>
+            <line>
+              <![CDATA[</br>Step 2: Open Students listing page]]>
+            </line>
+            <line>
+              <![CDATA[</br>Step 3: Get total of requests which are submitted and approved in 2019]]>
+            </line>
+            <line>
+              <![CDATA[</br></br>ACTUAL RESULT: </br> SUM(Approved Requests && Date Submitted = 2019) :  5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Requests_Total_Submitted_Approve_in_2019 -->
+      </class> <!-- com.demo.test.WebUIAutomationTest -->
+      <class name="com.demo.test.BaseTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.demo.test.BaseTest@6d00a15d]" name="init" is-config="true" duration-ms="10005" started-at="2020-03-15T14:47:55 ICT" finished-at="2020-03-15T14:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.BaseTest@6d00a15d]" name="tearDown" is-config="true" duration-ms="660" started-at="2020-03-15T14:48:10 ICT" finished-at="2020-03-15T14:48:10 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.test.BaseTest -->
+      <class name="com.demo.test.ApiTest">
+        <test-method status="PASS" signature="Verify_API_GET_Posts()[pri:0, instance:com.demo.test.ApiTest@51efea79]" name="Verify_API_GET_Posts" duration-ms="1308" started-at="2020-03-15T14:48:05 ICT" finished-at="2020-03-15T14:48:06 ICT">
+          <reporter-output>
+            <line>
+              <![CDATA[</br>Test Case: Verify that the Posts api returns correct data. </br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>Step 1: Request https://my-json-server.typicode.com/typicode/demo/posts/1]]>
+            </line>
+            <line>
+              <![CDATA[</br>step 2: Check that data returned matches the expected result]]>
+            </line>
+            <line>
+              <![CDATA[</br>ACTUAL RESULT: Data returned is : Post 1]]>
+            </line>
+            <line>
+              <![CDATA[</br>EXPECTED RESULT: Post 1</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_API_GET_Posts -->
+      </class> <!-- com.demo.test.ApiTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
